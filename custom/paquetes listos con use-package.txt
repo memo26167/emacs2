@@ -1,0 +1,29 @@
+environment
+-dashboard bien
+-nyancat bien
+-fancy battery bien
+-golden-ratio  bien
+-doom-themes bien
+-doom-modeline bien
+-alltheicons bien pero necesita instalarse
+
+convenience listo
+-projectile bien
+
+editing listo
+-yasnippet bien
+-undo tree bien
+
+files listo
+-tremacs bien
+-treemacs-projectile bien
+
+helm listo
+-helm bien
+-helm-projectile bien
+
+programming bien
+- flycheck listo
+- flycheck-tip listo
+
+
