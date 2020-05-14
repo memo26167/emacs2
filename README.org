@@ -1,4 +1,4 @@
-## Mi configuracion de emacs
+* Mi configuracion de emacs
 Ir a la carpeta custom, no modificiar init.el
 Modificar custom.el en base a sus preferencias
 
@@ -34,7 +34,7 @@ Además, incluye modificaciones de teclas en setup-keys.el tales como:
         Tecla en general
         "C-x p"
 
-Teclas importantes
+** Teclas importantes
 
 - Helm-projectile
         "C-x p h"
