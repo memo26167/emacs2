@@ -22,55 +22,59 @@ Esta configuracion de emacs incluyen los siguientes paquetes:
 
 Además, incluye modificaciones de teclas en setup-keys.el tales como:
 - hs-minor-mode 
-         Para mostrar o ocultar bloques de codigo, se activa con
-         "C-c h"
+        Para mostrar o ocultar bloques de codigo, se activa con
+        "C-c h"
 - ibuffer
-         Para ver los buffers actuales, se activa con
-         "C-x C-b"
+        Para ver los buffers actuales, se activa con
+        "C-x C-b"
 - shell
-         Para abrir la shell
-         "C-t"
+        Para abrir la shell
+        "C-t"
 - projectile
-         Tecla en general
-         "C-x p"
+        Tecla en general
+        "C-x p"
 
 Teclas importantes
 
-- Helm-projectile         "C-x p h"
+- Helm-projectile
+        "C-x p h"
 
-- Treemacs                "C-x t t"
-- Treemacs projectile     "C-c C-p p"
+- Treemacs                
+        "C-x t t"
+- Treemacs projectile     
+        "C-c C-p p"
 
 
-- En python-mode 
-         Abrir interpretador de python            "C-c C-p"
-         Ir al interpretador de python            "C-c C-z"
-         Correr archivo abierto                   "C-c C-c"
-         Correr seleccion en interpretador        "C-c C-r" 
+- En python-mode
+        Abrir interpretador de python            "C-c C-p"
+        Ir al interpretador de python            "C-c C-z"
+        Correr archivo abierto                   "C-c C-c"
+        Correr seleccion en interpretador        "C-c C-r" 
 
 
 - En org-mode 
-         esconder o mostrar listas            "Shift-TAB"
-         esconder o mostrar lista             "TAB"
+        esconder o mostrar listas            "Shift-TAB"
+        esconder o mostrar lista             "TAB"
+        
+        cambiar item de TODO a DONE          "Shift y flechas horizontales"
+        cambiar importancia de item          "Shift y flechas verticales"
+        cambiar estraificacion de item       "Alt y flechas horizontales"
+        mover lugar de item                  "Alt y flechas verticales"
 
-         cambiar item de TODO a DONE          "Shift y flechas horizontales"
-         cambiar importancia de item          "Shift y flechas verticales"
-         cambiar estraificacion de item       "Alt y flechas horizontales"
-         mover lugar de item                  "Alt y flechas verticales"
+        lista global todo                    "C-c a t"
+        Planificar tarea                     "C-c C-s"
+        Mostrar agenda                       "C-c a a" presionar l para mostrar detalles
+        Capture y llevar al inbox            "C-c c"
+        Tomar item y mover a archivo (refile)"C-c C-w"
+        Añadir Tag a ITEM                    "C-c C-c"
 
-         lista global todo                    "C-c a t"
-         Planificar tarea                     "C-c C-s"
-         Mostrar agenda                       "C-c a a" presionar l para mostrar detalles
-         Capture y llevar al inbox            "C-c c"
-         Tomar item y mover a archivo (refile)"C-c C-w"
-         Añadir Tag a ITEM                    "C-c C-c"
+        Colocar lista de cosas               "M-RET"
+        Colocar lista de cosas con checkbox  "M-S-RET" alt shift enter
+        Checkear o actualizar checkbox       "C-c C-c"
 
-         Colocar lista de cosas               "M-RET"
-         Colocar lista de cosas con checkbox  "M-S-RET" alt shift enter
-         Checkear o actualizar checkbox       "C-c C-c"
+        Planificar fecha                     "C-c C-s"
+        Añadir Deadline                      "C-c C-d"
 
-         Planificar fecha                     "C-c C-s"
-         Añadir Deadline                      "C-c C-d"
 
 
 
