@@ -1,0 +1,10 @@
+python
+libreria de python -> flake8     (flycheck)
+                   -> setuptools (anaconda)
+                   -> virtualenv (jedi)
+para c
+clang para windows
+-> visual C++
+gcc para linux
+
+en emacs, para jedi, M-x jedi:install-server
