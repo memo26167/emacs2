@@ -41,7 +41,7 @@ Teclas importantes
 - Treemacs                "C-x t t"
 - Treemacs projectile     "C-c C-p p"
 
-- En python-mode
+- En python-mode 
          Abrir interpretador de python            "C-c C-p"
          Ir al interpretador de python            "C-c C-z"
          Correr archivo abierto                   "C-c C-c"
