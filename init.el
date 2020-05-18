@@ -36,7 +36,7 @@
  '(nyan-cat-face-number 4)
  '(package-selected-packages
    (quote
-	(helm-org doom-themes doom-modeline all-the-icons dashboard treemacs-projectile helm-projectile projectile helm treemacs treemacs-icons-diredmacs flycheck-pos-tip flycheck undo-tree smartparens volatile-highlights golden-ratio yasnippet-snippets yasnippet use-package nyan-mode))))
+	(company-anaconda anaconda-mode company helm-org doom-themes doom-modeline all-the-icons dashboard treemacs-projectile helm-projectile projectile helm treemacs treemacs-icons-diredmacs flycheck-pos-tip flycheck undo-tree smartparens volatile-highlights golden-ratio yasnippet-snippets yasnippet use-package nyan-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

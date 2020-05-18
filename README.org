@@ -1,6 +1,7 @@
 * Mi configuracion de emacs
 Ir a la carpeta custom, no modificiar init.el
 Modificar custom.el en base a sus preferencias
+Como por ejemplo, el interprete de python
 
 Esta configuracion de emacs incluyen los siguientes paquetes:
 - Fancy Battery

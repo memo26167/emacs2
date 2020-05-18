@@ -4,7 +4,7 @@
 
 (use-package helm
   :ensure t
-  :config 
+  :config
   (require 'helm-config)
   (helm-mode 1)
   (setq helm-kill-ring-threshold 3)
@@ -25,15 +25,10 @@
 
 (use-package helm-projectile
   :ensure t
-  :after (helm projectile)
   :config
-  (progn 
-    (helm-projectile-on)
-    (setq projectile-completion-system 'helm)
-    (setq projectile-switch-project-action 'helm-projectile))
-  :bind (("C-x p p" . helm-projectile-switch-project)
-         ("C-x p f" . helm-projectile-find-file)
-        )
+  (helm-projectile-on)
+  (setq projectile-switch-project-action 'helm-projectile)
+  (setq projectile-completion-system 'helm)
 )
 
 ;; Helm Org

@@ -41,8 +41,8 @@
 ;; GROUP: Programming -> Company-mode ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;;(require 'company)
-;;(add-hook 'after-init-hook 'global-company-mode)
+(require 'company)
+(add-hook 'after-init-hook 'global-company-mode)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Package: anaconda-mode             ;;
@@ -50,6 +50,11 @@
 ;; GROUP: Programming -> Anaconda-mode;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;(add-hook 'python-mode-hook 'anaconda-mode)
+(use-package anaconda-mode
+    :init
+    (progn
+      (add-hook 'python-mode-hook 'anaconda-mode)
+ ))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Package: company-anaconda              ;;
@@ -57,23 +62,5 @@
 ;; GROUP: Programming -> Company-anaconda ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;;(eval-after-load "company"
-;; '(add-to-list 'company-backends '(company-anaconda :with company-capf)))
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Package: jedi                      ;;
-;;                                    ;;
-;; GROUP: Programming -> Jedi.el      ;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;(add-hook 'python-mode-hook 'jedi:setup)
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Package: Elpy                      ;;
-;;                                    ;;
-;; GROUP: Programming -> Elpy         ;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-;;(use-package elpy
-;;  :ensure t
-;;  :init
-;;  (elpy-enable))
+(eval-after-load "company"
+ '(add-to-list 'company-backends 'company-anaconda))

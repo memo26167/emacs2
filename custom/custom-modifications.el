@@ -41,6 +41,7 @@
 ;; Para Python, instalar version de python e instalar flake 8 con pip
 ;; 	luego modificar con C-c ! v
 ;; Modificar el arrancador de python, para windows es python, para linux es python3
-(setq flycheck-python-flake8-executable "python")
+(setq flycheck-python-flake8-executable "python3")
+(setq python-shell-interpreter "python3")
 
 
