@@ -20,6 +20,9 @@ Esta configuracion de emacs incluyen los siguientes paquetes:
 - Volatile-Highlights
 - yasnippet
 - yasnippet-snippets
+- company
+- anaconda-mode
+- company-anaconda
 
 Además, incluye modificaciones de teclas en setup-keys.el tales como:
 - hs-minor-mode 
