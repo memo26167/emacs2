@@ -11,3 +11,6 @@
 ;;;; shell
 ;; modificar la tecla C-t, para abrir la shell
 (global-set-key (kbd "C-t") 'shell)
+
+;;;; Magit
+(global-set-key (kbd "C-x g") 'magit-status)
