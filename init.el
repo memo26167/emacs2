@@ -32,11 +32,13 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(flycheck-display-errors-delay 0.3)
- '(nyan-animate-nyancat t)
- '(nyan-cat-face-number 4)
+ '(nyan-animate-nyancat t t)
+ '(nyan-bar-length 10 t)
+ '(nyan-cat-face-number 4 t)
+ '(nyan-wavy-trail t t)
  '(package-selected-packages
    (quote
-	(magit org company-anaconda anaconda-mode company helm-org doom-themes doom-modeline all-the-icons dashboard treemacs-projectile helm-projectile projectile helm treemacs treemacs-icons-diredmacs flycheck-pos-tip flycheck undo-tree smartparens volatile-highlights golden-ratio yasnippet-snippets yasnippet use-package nyan-mode))))
+	(parrot magit org company-anaconda anaconda-mode company helm-org doom-themes doom-modeline all-the-icons dashboard treemacs-projectile helm-projectile projectile helm treemacs treemacs-icons-diredmacs flycheck-pos-tip flycheck undo-tree smartparens volatile-highlights golden-ratio yasnippet-snippets yasnippet use-package nyan-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

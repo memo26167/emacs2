@@ -43,5 +43,11 @@
 ;; Modificar el arrancador de python, para windows es python, para linux es python3
 (setq flycheck-python-flake8-executable "python3")
 (setq python-shell-interpreter "python3")
+(setq-default flycheck-disabled-checkers '(python-pylint))
+;; Para ver Backend de Company
+;; M-x company-diag
+
+
+
 
 

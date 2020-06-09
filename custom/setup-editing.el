@@ -27,14 +27,14 @@
 ;; GROUP: Editing -> SmartParens         ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Incluye caracteristicas para pares de caracteres, por ejemplo, parentesis
-(require 'smartparens-config)
-(setq sp-base-key-bindings 'paredit)
-(setq sp-autoskip-closing-pair 'always)
-(setq sp-hybrid-kill-entire-symbol nil)
-(sp-use-paredit-bindings)
-(add-hook 'c-mode-hook #'smartparens-mode)
-(add-hook 'python-mode-hook #'smartparens-mode)
-(add-hook 'latex-mode-hook #'smartparens-mode)
+
+(use-package smartparens-config
+  :ensure smartparens
+  :config
+  (progn  (require 'smartparens-config)
+		  )
+  :hook ((c-mode python-mode latex-mode) . smartparens-mode)
+  )
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Package: undo-tree                  ;;
@@ -68,8 +68,4 @@
 ;; Para ocultar bloques de codigo
 (add-hook 'c-mode-common-hook   'hs-minor-mode)
 ;; Se modifican las teclas en keys
-
-
-
-
 

@@ -28,7 +28,7 @@
                         (projects . 5)
                         (agenda . 5)))
   (setq show-week-agenda-p t)
-  (setq dashboard-startup-banner 4)
+  (setq dashboard-startup-banner 4);; Se puede cambiar a otros banners
   )
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -40,10 +40,29 @@
 (use-package nyan-mode
    :defer t
    :custom
-   (nyan-cat-face-number 4)
+   (nyan-cat-face-number 4) ;; Para terminal
    (nyan-animate-nyancat t)
+   (nyan-wavy-trail t)
+   (nyan-bar-length 15)
    :hook
    (after-init . nyan-mode))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; PACKAGE: parrot               ;;
+;; GROUP: Environment -> Parrot  ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Un lindo Parrot
+
+;;(use-package parrot
+;;  :config
+;;  (parrot-mode))
+
+(require 'parrot)
+(parrot-set-parrot-type 'science)
+;; Para que no deje de moverse
+(setq parrot-num-rotations nil)
+;; To see the party parrot in the modeline, turn on parrot mode:
+(parrot-mode)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; PACKAGE: Doom-Modeline                        ;;

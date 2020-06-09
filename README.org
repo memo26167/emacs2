@@ -4,7 +4,6 @@ Modificar custom.el en base a sus preferencias
 Como por ejemplo, el interprete de python
 
 Esta configuracion de emacs incluyen los siguientes paquetes:
-- Fancy Battery
 - Flycheck
 - Flycheck-Post-Tip
 - Golden Ratio
@@ -23,6 +22,8 @@ Esta configuracion de emacs incluyen los siguientes paquetes:
 - company
 - anaconda-mode
 - company-anaconda
+- dashboard
+- Magit
 
 Además, incluye modificaciones de teclas en setup-keys.el tales como:
 - hs-minor-mode 
@@ -48,6 +49,8 @@ Además, incluye modificaciones de teclas en setup-keys.el tales como:
 - Treemacs projectile     
         "C-c C-p p"
 
+- Magit
+        "C-x g" 
 
 - En python-mode 
         Abrir interpretador de python            "C-c C-p"

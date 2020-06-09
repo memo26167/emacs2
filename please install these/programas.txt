@@ -1,18 +1,22 @@
-python
+Para python
 libreria de python -> flake8     (flycheck)
                    -> setuptools (anaconda)
                    -> jedi (anaconda)
 				   -> parso (anaconda)
 				   -> service_factory (anaconda)
-para c
-clang para windows
+Para C
+clang para Windows
 -> visual C++
-gcc para linux
+gcc y clang para Linux
 
-para producir pdf en org-mode
+Instalar Git en ambos
+ 
+Para Latex en org-mode
 Linux
 -> texlive-latex-base
 -> texlive-beamer
 -> texlive-latex-extra
 Windows?
 -> MikTEx
+Dependencias
+https://orgmode.org/worg/org-dependencies.html

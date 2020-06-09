@@ -64,3 +64,15 @@
 
 (eval-after-load "company"
  '(add-to-list 'company-backends 'company-anaconda))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Package: matlab-mode              ;;
+;;                                   ;;
+;; GROUP: Programming -> Matlab-Mode ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; (use-package matlab-mode
+;;   :ensure t
+;;   :defer t
+;;   :config (setq matlab-indent-function-body t)
+;;   :commands (matlab-shell)
+;;  )
