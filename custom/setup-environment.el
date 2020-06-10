@@ -43,7 +43,7 @@
    (nyan-cat-face-number 4) ;; Para terminal
    (nyan-animate-nyancat t)
    (nyan-wavy-trail t)
-   (nyan-bar-length 15)
+   (nyan-bar-length 20)
    :hook
    (after-init . nyan-mode))
 
