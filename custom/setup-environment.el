@@ -53,16 +53,19 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Un lindo Parrot
 
-;;(use-package parrot
-;;  :config
-;;  (parrot-mode))
+(use-package parrot
+  :custom
+  (parrot-num-rotations nil)
+  :config
+  (parrot-set-parrot-type 'science)
+  (parrot-mode))
 
-(require 'parrot)
-(parrot-set-parrot-type 'science)
+;;(require 'parrot)
+;;(parrot-set-parrot-type 'science)
 ;; Para que no deje de moverse
-(setq parrot-num-rotations nil)
+;;(setq parrot-num-rotations nil)
 ;; To see the party parrot in the modeline, turn on parrot mode:
-(parrot-mode)
+;;(parrot-mode)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; PACKAGE: Doom-Modeline                        ;;
@@ -88,12 +91,11 @@
 
   ;; Enable flashing mode-line on errors
   (doom-themes-visual-bell-config)
-  
+
   ;; Set treemacs theme
   (setq doom-themes-treemacs-theme "doom-colors")
   (doom-themes-treemacs-config)
-  
-  
+
   ;; Corrects (and improves) org-mode's native fontification.
   (doom-themes-org-config))
 
