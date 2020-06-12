@@ -1,29 +1,36 @@
-environment
--dashboard bien
--nyancat bien
--fancy battery bien
--golden-ratio  bien
--doom-themes bien
--doom-modeline bien
--alltheicons bien pero necesita instalarse
+* Environment [100%]
+- [X] dashboard
+- [X] nyancat
+- [X] fancy battery
+- [X] golden-ratio
+- [X] doom-themes
+- [X] doom-modelinE
+- [X] alltheicons
+- [X] parrot
 
-convenience listo
--projectile bien
+* Convenience [100%]
+- [X] projectile
+- [X] org-mode
+- [X] magit
 
-editing listo
--yasnippet bien
--undo tree bien
+* Editing [100%]
+- [X] undo-tree
+- [X] smartparens
+- [X] volatile-highlight
 
-files listo
--tremacs bien
--treemacs-projectile bien
+* Files [100%]
+- [X] tremacs
+- [X] treemacs-projectile
 
-helm listo
--helm bien
--helm-projectile bien
+* Helm
+- [X] helm
+- [X] helm-projectile
+- [X] helm-org
 
-programming bien
-- flycheck listo
-- flycheck-tip listo
-
-
+* Programming
+- [X] flycheck
+- [X] flycheck-tip
+- [X] yasnippet
+- [X] company-mode
+- [X] anaconda-mode
+- [X] company-anaconda

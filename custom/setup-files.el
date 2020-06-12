@@ -30,7 +30,7 @@
 ;;                                       ;;
 ;; GROUP: Editing -> Treemacs projectile ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; 
+;;
 
 (use-package treemacs-projectile
   :after (treemacs projectile))
