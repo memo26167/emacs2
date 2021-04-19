@@ -43,19 +43,16 @@
 (global-set-key (kbd "C-c a") 'org-agenda)
 ;;(global-set-key (kbd "C-c c") 'org-capture)
 (setq org-log-done t)
-(setq org-agenda-files '("~/gtd/inbox.org"
-                         "~/gtd/gtd.org"
-                         "~/gtd/tickler.org"))
+(setq org-agenda-files '("~/gtd/files/inbox.org"
+                         "~/gtd/files/gtd.org"
+                         "~/gtd/files/tickler.org"))
 (setq org-capture-templates '(("t" "Inbox" entry
-                               (file+headline "~/gtd/inbox.org" "Inbox")
+                               (file+headline "~/gtd/files/inbox.org" "Inbox")
                                "* TODO %i%?")
                               ("T" "Tickler" entry
-                               (file+headline "~/gtd/tickler.org" "Tickler")
+                               (file+headline "~/gtd/files/tickler.org" "Tickler")
                                "* %i%? \n SCHEDULED: %^T")))
-(setq org-refile-targets '(("~/gtd/gtd.org" :maxlevel . 2)
-                           ("~/gtd/someday.org" :level . 1)
-                           ("~/gtd/tickler.org" :maxlevel . 2)))
+(setq org-refile-targets '(("~/gtd/files/gtd.org" :maxlevel . 2)
+                           ("~/gtd/files/someday.org" :level . 1)
+                           ("~/gtd/files/tickler.org" :maxlevel . 2)))
 (setq org-todo-keywords '((sequence "TODO(t)" "WAITING(w)" "|" "DONE(d)" "CANCELLED(c)")))
-
-
-
